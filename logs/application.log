@@ -1,0 +1,29 @@
+2022-11-29 11:43:35.853  INFO 21788 --- [main] c.b.twelvefactorapp.TwelveFactorApp      : Starting TwelveFactorApp using Java 18.0.1.1 on BRILAP4902 with PID 21788 (C:\Users\Pravallika.G\Documents\Java and React 12Factor\target\classes started by Pravallika.G in C:\Users\Pravallika.G\Documents\Java and React 12Factor)
+2022-11-29 11:43:35.866  INFO 21788 --- [main] c.b.twelvefactorapp.TwelveFactorApp      : No active profile set, falling back to 1 default profile: "default"
+2022-11-29 11:43:37.164  INFO 21788 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-11-29 11:43:37.166  INFO 21788 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2022-11-29 11:43:37.213  INFO 21788 --- [main] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.brillio.twelvefactorapp.repository.EmployeeRepository. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2022-11-29 11:43:37.214  INFO 21788 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 38 ms. Found 0 JDBC repository interfaces.
+2022-11-29 11:43:37.229  INFO 21788 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-11-29 11:43:37.231  INFO 21788 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-11-29 11:43:37.264  INFO 21788 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 26 ms. Found 1 JPA repository interfaces.
+2022-11-29 11:43:37.798  INFO 21788 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2022-11-29 11:43:37.811  INFO 21788 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-11-29 11:43:37.811  INFO 21788 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-11-29 11:43:38.057  INFO 21788 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-11-29 11:43:38.057  INFO 21788 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2134 ms
+2022-11-29 11:43:38.401  INFO 21788 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-29 11:43:38.486  INFO 21788 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.9.Final
+2022-11-29 11:43:38.722  INFO 21788 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-11-29 11:43:38.934  INFO 21788 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-11-29 11:43:39.500  INFO 21788 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-11-29 11:43:39.544  INFO 21788 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-11-29 11:43:40.378  INFO 21788 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-29 11:43:40.387  INFO 21788 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-11-29 11:43:40.768  WARN 21788 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-11-29 11:43:41.754  INFO 21788 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2022-11-29 11:43:41.809  INFO 21788 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path ''
+2022-11-29 11:43:41.824  INFO 21788 --- [main] c.b.twelvefactorapp.TwelveFactorApp      : Started TwelveFactorApp in 6.375 seconds (JVM running for 7.414)
+2022-11-29 11:43:43.141  INFO 21788 --- [RMI TCP Connection(3)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-29 11:43:43.142  INFO 21788 --- [RMI TCP Connection(3)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-11-29 11:43:43.143  INFO 21788 --- [RMI TCP Connection(3)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
